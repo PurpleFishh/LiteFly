@@ -1,0 +1,48 @@
+#--= FlyLite =--
+#- Plugin by PurpleFishh
+
+#--= Permissions =--
+# To have all of the permissions of that plugin you can use litefood.*
+# To don't get your hunger off when you fly you can put the permission litefood.hunger
+
+# There you put the how much hunger to consume when the player fly
+# That value from 'Hunger' is the interval of seconds from getting one half of hunger
+# Now it take at every 5 seconds one half of saturation
+Hunger: 5
+
+#--= Messages =--
+#You can use & , $ or % for color code, its your choice
+
+# There you put the signature that will appears in front of every message of that plugin
+Water-Mark: '&f{&bLF&f}'
+
+# There you put the message that will appears when the player will activate the fly
+Fly-Activate-Message: '&aFly was activate'
+
+# There you put the message that will appears when the player will turn of the fly
+Fly-Disable-Message: '&cFly was disable'
+
+# There you put the message that will appears when the hunger of the player is on 0
+Disable-for-Hunger-Message: "&eYour fly was disable because you don't have food"
+
+# There you put the message that will appears when the player don't have enough hunger to fly
+Activate-Without-Food-Message: '&cYou need more hunger to fly'
+
+#--= Fly-Item =--
+
+# There you put the id for the item witch will enable the fly
+Fly-Item-Id: 288
+
+# There you put the name of the item with witch the player will enable the fly
+Fly-Item-Name: '&bFly'
+
+# There you put the lore of that item,you can use a list of sentences here
+Fly-Item-Lore: 
+- '&3Right-Click with that item and it will enable your fly.'
+- '&7Have fun!'
+
+# There you put the message that will appears when the player get the item for flying
+Fly-Item-Receive: '&aYou had receive the item for flying'
+
+# There you put the message that will appears when the player have an fly item in his inventory
+Fly-Item-Had: '&cYou have another fly item in your inventory'

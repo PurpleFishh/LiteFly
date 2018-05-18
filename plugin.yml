@@ -1,0 +1,16 @@
+name: LiteFly
+main:  me.puplefishh.dipcraft.litefly.main.LF_Main
+version: 0.9
+author: PurpleFishh
+commands: 
+   fly:
+      description: Get your item to fly.
+      usage: /<command>
+permissions:
+    litefood.*:
+        description: It's give you access to all of the permissions form that plugin
+        children:
+            litefood.hunger: false
+    litefood.hunger:
+        description: It's don't get you hunger when you fly
+        default: false
